@@ -23,6 +23,9 @@ table {
     float: right;
     text-align: right;
 }
+.second-td a{
+    margin-right: 5px;
+}
 .tel-top {
     font-size: 16px;
     line-height: 24px;
@@ -38,8 +41,8 @@ table {
 }
 .table-1 {
     width: 600px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 h2 {
     margin-top: 32px;
@@ -60,6 +63,7 @@ p {
     margin-bottom: 36px;
     padding: 16px 20px;
     color: #fff;
+    font-weight: bold;
     border-radius: 26px;
     background-color: #fd8300;
     text-decoration: none;
@@ -129,7 +133,7 @@ p {
     padding-bottom: 12px;
     padding-left: 20px;
     padding-right: 20px;
-    background-image: url(/img/orange.png);
+    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/hatamail/master/img/orange.png);
     background-repeat: repeat;
     text-align: center;
     font-family: "Arial";
@@ -144,10 +148,15 @@ p {
     margin-bottom: 20px;
     font-size: 13px;
     line-height: 20px;
-    color: #fff;  
+    color: #ffffff;  
 }
 .botton1 a{
-    padding: 10px 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 9px;
+    padding-top: 9px;
     font-size: 14px;
     line-height: 24px;
     font-weight: bold;
@@ -164,12 +173,13 @@ p {
     padding-bottom: 12px;
     padding-left: 20px;
     padding-right: 20px;
-    background-image: url(/img/sloy.png);
+    background-image: url(https://raw.githubusercontent.com/OleksandrIsaev/hatamail/master/img/sloy.png);
     background-repeat: repeat;
     text-align: center;
     font-family: "Arial";
 }
 .budcomp p{
+    display: inline-block;
     margin-top: 20px;
     font-size: 13px;
     line-height: 18px;
