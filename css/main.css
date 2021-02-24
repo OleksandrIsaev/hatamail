@@ -39,7 +39,7 @@ table {
     color: #9999a6;
     font-style: italic;
 }
-.table-1 {
+.table-1 tr{
     width: 600px;
     padding-left: 30px;
     padding-right: 30px;
